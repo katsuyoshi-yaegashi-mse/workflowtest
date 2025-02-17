@@ -8,7 +8,10 @@ jobs:
 
     steps:
     - run: |
+        echo ====ls run====
         ls
+        echo ====whoami run====
         whoami
+        echo ====printenv run====
         printenv
         
