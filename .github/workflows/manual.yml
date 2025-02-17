@@ -10,10 +10,6 @@ jobs:
       uses: actions/checkout@v3
 
     - run: |
-        echo ====pwd run====
-        pwd
-        echo ====whoami run====
-        whoami
-        echo ====printenv run====
-        printenv
+        echo ====df run====
+        df
         
