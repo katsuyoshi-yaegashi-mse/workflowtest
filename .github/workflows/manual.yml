@@ -5,8 +5,10 @@ on: [ workflow_dispatch ]
 jobs:
   ex1:
     runs-on: ubuntu-latest
-
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
     - run: |
         echo ====pwd run====
         pwd
