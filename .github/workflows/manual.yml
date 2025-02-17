@@ -11,5 +11,5 @@ jobs:
 
     - run: |
         echo ====df run====
-        df
+        df --total
         
