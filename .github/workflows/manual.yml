@@ -9,7 +9,7 @@ jobs:
     steps:
     - run: |
         echo ====pwd run====
-        ped
+        pwd
         echo ====whoami run====
         whoami
         echo ====printenv run====
