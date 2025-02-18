@@ -10,7 +10,7 @@ on:
  
 jobs:
   ex1:
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.inputs.runner }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
